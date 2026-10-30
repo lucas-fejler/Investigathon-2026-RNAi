@@ -1,0 +1,10 @@
+candidate_id	organism	admitted_regions	a_complete_regions	p_complete_regions	scores_verified_regions	ranking_eligible	withholding_reasons	outside_panel_regions	completed_p_numerator_distribution	p_constant_across_complete_panel	constant_p_exact	unique_positions	regional_position_memberships	position_status_counts	a_complete	p_complete
+DM_ATP5F1B	Dalbulus maidis	3	3	3	3	True	[]	2512	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+DM_BURS_A	Dalbulus maidis	3	3	3	3	True	[]	266	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+DM_ETH	Dalbulus maidis	3	3	3	3	True	[]	413	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+DM_RPN6	Dalbulus maidis	3	3	3	3	True	[]	2311	"{""180"": 3}"	True	1	361	540	"{""positive_complete"": 361}"	True	True
+DM_VATP_B	Dalbulus maidis	3	3	3	3	True	[]	1470	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+EPILAB_ATPaseD_Dm	Dalbulus maidis	3	3	3	3	True	[]	289	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+EPILAB_BicC_Dm	Dalbulus maidis	3	3	3	3	True	[]	2318	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+EPILAB_CP_MRFV	Maize rayado fino virus	3	3	3	3	True	[]	326	"{""180"": 3}"	True	1	182	540	"{""positive_complete"": 182}"	True	True
+EPILAB_MP_MRFV	Maize rayado fino virus	3	3	3	3	True	[]	1061	"{""180"": 3}"	True	1	186	540	"{""positive_complete"": 186}"	True	True

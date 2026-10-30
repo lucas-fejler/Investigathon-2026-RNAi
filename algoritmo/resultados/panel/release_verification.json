@@ -1,0 +1,57 @@
+{
+  "a_complete_regions": 27,
+  "admitted_regions": 27,
+  "attempted_unique_pairs": 3170,
+  "budget_boundary_reached": false,
+  "cache_verification_errors": [],
+  "completed_p_numerator_distribution": {
+    "180": 27
+  },
+  "evaluated_unique_pairs": 3170,
+  "exact_score_groups": 36,
+  "exhaustive_production_complete": false,
+  "frozen_manifest_sha256": "fca661f7bab7cf4e18f97d138627289ce86df5de1d3c6fd036f898e42a49f27f",
+  "independently_checked_M8_ranking_rows": 81,
+  "initial_unique_pairs": 1240111926,
+  "kind": "preliminary_A_selected_panel_release",
+  "m6_regions_checked": 27,
+  "native_attempt_status": {
+    "completed": 4542,
+    "unavailable_interrupted": 1
+  },
+  "native_evaluations_launched_for_release": 0,
+  "negative_reported_pairs": 1349,
+  "nontrivial_exact_tie_groups": 27,
+  "not_required_after_positive_pairs": 1240108756,
+  "p_complete_regions": 27,
+  "panel_id": "ea6a0c842f321e7fc5f08ebe8c07cdd87edce06e0060316c6167261897da5001",
+  "position_status_counts": {
+    "failed": 0,
+    "negative_complete": 0,
+    "positive_complete": 1821,
+    "unresolved": 0
+  },
+  "positive_pairs": 1821,
+  "ranking_eligible_genes": 9,
+  "run": {
+    "binding": {
+      "classification_id": "c58a9d1b80b36be64439c9fd39b2025dddfcda9464ae4c4c678a2bd0aab2fe9f",
+      "evaluator_id": "24bb0d8e9d2d703bba606d0db88d039d3e1a1cb551cc78eb7d57d395c4a8a004",
+      "panel_id": "ea6a0c842f321e7fc5f08ebe8c07cdd87edce06e0060316c6167261897da5001"
+    },
+    "panel_id": "ea6a0c842f321e7fc5f08ebe8c07cdd87edce06e0060316c6167261897da5001",
+    "positions": {
+      "positive_complete": 1821
+    },
+    "segment_pairs": 1664,
+    "segment_wall_seconds": 969.9422764720002,
+    "stage": "assessment_finished",
+    "total_unique_attempted_pairs": 3170
+  },
+  "run_limits": {
+    "new_pairs": 20000,
+    "wall_seconds": 3600
+  },
+  "still_required_pairs": 0,
+  "unique_positions": 1821
+}

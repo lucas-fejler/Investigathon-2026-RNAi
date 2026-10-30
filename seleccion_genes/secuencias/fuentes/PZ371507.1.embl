@@ -1,0 +1,76 @@
+ID   PZ371507; SV 1; linear; mRNA; STD; INV; 615 BP.
+XX
+AC   PZ371507;
+XX
+DT   14-JUN-2026 (Rel. 144, Created)
+DT   15-JUN-2026 (Rel. 144, Last updated, Version 1)
+XX
+DE   Dalbulus maidis voucher CeBio_01_1 ecdysis triggering hormone (eth) mRNA,
+DE   complete cds.
+XX
+KW   .
+XX
+OS   Dalbulus maidis (maize leafhopper)
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Altocrustacea; Allotriocarida;
+OC   Hexapoda; Insecta; Pterygota; Neoptera; Eumetabola; Paraneoptera;
+OC   Hemiptera; Auchenorrhyncha; Membracoidea; Cicadellidae; Deltocephalinae;
+OC   Dalbulus.
+XX
+RN   [1]
+RP   1-615
+RA   Andrada N.L., Crespo M., Baricalla A., Dalaison Fuentes L.I., Sterkel M.,
+RA   Catalano M.I.;
+RT   "ETH and Burs-alpha are necessary for the normal molting in Dalbulus maidis
+RT   and Delphacodes kuscheli";
+RL   Unpublished.
+XX
+RN   [2]
+RP   1-615
+RA   Andrada N.L.;
+RT   ;
+RL   Submitted (29-APR-2026) to the INSDC.
+RL   Laboratorio de Insectos de Interes Agronomico, Centro de Bioinvestigaciones
+RL   (CeBio), Avenida Presidente Frondizi, Pergamino, Buenos Aires 2700,
+RL   Argentina
+XX
+DR   MD5; b510289362a83a9792c82fd2c9bbb0c9.
+XX
+CC   ##Assembly-Data-START##
+CC   Assembly Method       :: Trinity v. 2.15.2
+CC   Sequencing Technology :: Illumina
+CC   ##Assembly-Data-END##
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..615
+FT                   /organism="Dalbulus maidis"
+FT                   /mol_type="mRNA"
+FT                   /geo_loc_name="Argentina: Pergamino, Buenos Aires"
+FT                   /specimen_voucher="CeBio_01_1"
+FT                   /collection_date="2018"
+FT                   /db_xref="taxon:74065"
+FT   gene            1..615
+FT                   /gene="eth"
+FT   CDS             1..615
+FT                   /codon_start=1
+FT                   /gene="eth"
+FT                   /product="ecdysis triggering hormone"
+FT                   /protein_id="YEZ98820.1"
+FT                   /translation="MACYTLLLECVVVCSLLTISESSPQSQFDDQFDPFDDSFYEPGPP
+FT                   YLGDIVKNVPRVGRRNDFFLKAAKSVPRIGRRDGDDVKPSQINKNFPRVERRNDFFLKA
+FT                   AKSVPRIGRRNDFFLKAAKSVPRIGRRQDRLDKRGALTNAMEGGEMAAWPWFRNPELMP
+FT                   QAFKRSAPFQGPDQEESDHGLVFYKINLHREVEEPRLQAEV"
+XX
+SQ   Sequence 615 BP; 181 A; 135 C; 154 G; 145 T; 0 other;
+     atggcttgct acactctttt gctggaatgt gtcgtggtct gcagtcttct gaccatcagt        60
+     gagtccagtc cacaatccca gtttgacgac caatttgatc cgtttgacga tagtttttac       120
+     gagcctggac ccccttacct tggggacata gtcaagaatg tacccagggt aggacgcaga       180
+     aatgacttct ttctcaaggc agccaagtcc gttcccagga ttggccgcag agatggtgac       240
+     gatgtaaagc cgtctcagat taacaagaac tttccaaggg tagaaagaag aaacgatttc       300
+     ttcttgaagg cagccaaatc cgtcccaaga attggaagaa ggaatgattt cttcctcaaa       360
+     gctgccaagt ctgtgccccg gattggccgt agacaggata gacttgataa acgaggagct       420
+     ctaacaaacg ctatggaggg aggagaaatg gcagcatggc cttggtttcg aaaccctgaa       480
+     ctaatgccac aagcattcaa gaggagtgca ccttttcaag gaccagatca agaagagagt       540
+     gaccatggtt tagtgtttta caaaatcaac ttacatagag aagtagagga gcccagattg       600
+     caagccgaag tatga                                                        615
+//

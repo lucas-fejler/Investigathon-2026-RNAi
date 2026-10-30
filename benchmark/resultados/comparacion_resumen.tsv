@@ -1,0 +1,10 @@
+gen	n_ventanas	rho_offtarget	rho_eficacia_vs_score	jaccard_top10	sifi_mejor	siren_mejor	consenso	sifi_off_intra_total	siren_off_sirnas_mediana
+DM_ATP5F1B	629	NA	-0.286	0.179	2449-2648	1005-1204	2485-2684	0	2056
+DM_BURS_A	68	-0.557	-0.543	0.000	65-264	249-448	(sin solapamiento en el top 10%)	12120	866
+DM_ETH	104	NA	0.288	0.000	217-416	37-236	(sin solapamiento en el top 10%)	0	868
+DM_RPN6	579	0.334	-0.275	0.127	2209-2408	109-308	1509-1708	94840	2701
+DM_VATP_B	369	NA	-0.424	0.000	1137-1336	241-440	(sin solapamiento en el top 10%)	0	1735
+EPILAB_ATPaseD_Dm	73	NA	-0.449	0.000	125-324	289-488	(sin solapamiento en el top 10%)	0	920
+EPILAB_BicC_Dm	581	0.042	-0.340	0.000	2321-2520	1-200	(sin solapamiento en el top 10%)	26	2184
+EPILAB_CP_MRFV	83	NA	0.230	0.067	121-320	141-340	129-328	0	639
+EPILAB_MP_MRFV	266	NA	-0.210	0.000	85-284	645-844	(sin solapamiento en el top 10%)	0	1455

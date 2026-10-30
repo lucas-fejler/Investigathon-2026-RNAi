@@ -1,0 +1,14 @@
+* text=auto eol=lf
+# Preserve scientific data and their declared checksums across platforms.
+benchmark/datos/** -text
+benchmark/resultados/** -text
+seleccion_genes/secuencias/** -text
+algoritmo/implementacion/** -text
+algoritmo/resultados/panel/** -text
+*.pdf -text
+*.xlsx -text
+*.docx -text
+*.gz -text
+*.db -text
+# Empty final TSV fields and preserved CRLF endings are valid tabular data.
+*.tsv whitespace=-blank-at-eol,cr-at-eol

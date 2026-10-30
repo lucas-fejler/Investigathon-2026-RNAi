@@ -1,0 +1,72 @@
+ID   PZ371508; SV 1; linear; mRNA; STD; INV; 468 BP.
+XX
+AC   PZ371508;
+XX
+DT   14-JUN-2026 (Rel. 144, Created)
+DT   15-JUN-2026 (Rel. 144, Last updated, Version 1)
+XX
+DE   Dalbulus maidis voucher CeBio_01_2 bursicon alpha (burs alpha) mRNA,
+DE   complete cds.
+XX
+KW   .
+XX
+OS   Dalbulus maidis (maize leafhopper)
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Altocrustacea; Allotriocarida;
+OC   Hexapoda; Insecta; Pterygota; Neoptera; Eumetabola; Paraneoptera;
+OC   Hemiptera; Auchenorrhyncha; Membracoidea; Cicadellidae; Deltocephalinae;
+OC   Dalbulus.
+XX
+RN   [1]
+RP   1-468
+RA   Andrada N.L., Crespo M., Baricalla A., Dalaison Fuentes L.I., Sterkel M.,
+RA   Catalano M.I.;
+RT   "ETH and Burs-alpha are necessary for the normal molting in Dalbulus maidis
+RT   and Delphacodes kuscheli";
+RL   Unpublished.
+XX
+RN   [2]
+RP   1-468
+RA   Andrada N.L.;
+RT   ;
+RL   Submitted (29-APR-2026) to the INSDC.
+RL   Laboratorio de Insectos de Interes Agronomico, Centro de Bioinvestigaciones
+RL   (CeBio), Avenida Presidente Frondizi, Pergamino, Buenos Aires 2700,
+RL   Argentina
+XX
+DR   MD5; 9898f898f4fd74d3bf306ce74e7aa3fe.
+XX
+CC   ##Assembly-Data-START##
+CC   Assembly Method       :: Trinity v. 2.15.2
+CC   Sequencing Technology :: Illumina
+CC   ##Assembly-Data-END##
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..468
+FT                   /organism="Dalbulus maidis"
+FT                   /mol_type="mRNA"
+FT                   /geo_loc_name="Argentina: Pergamino, Buenos Aires"
+FT                   /specimen_voucher="CeBio_01_2"
+FT                   /collection_date="2018"
+FT                   /db_xref="taxon:74065"
+FT   gene            1..468
+FT                   /gene="burs alpha"
+FT   CDS             1..468
+FT                   /codon_start=1
+FT                   /gene="burs alpha"
+FT                   /product="bursicon alpha"
+FT                   /protein_id="YEZ98821.1"
+FT                   /translation="MGPIHTVTDAVLVALLWACVLAGDSPKSSPVSSEDCQVTPVIHVL
+FT                   QYPGCVPKPIPSFACTGRCSSYLQVSGSKIWQMERSCMCCQESGEREASVSLFCPKAKA
+FT                   GERKFRKVITKAPLECMCRPCTGVEESAVVPQEIAGYTDEGPLNAHFQKSQ"
+XX
+SQ   Sequence 468 BP; 96 A; 132 C; 145 G; 95 T; 0 other;
+     atgggaccga tccacacagt gacagatgca gtgttggtag ccctgttgtg ggcgtgcgtg        60
+     ttagctggtg actccccgaa gtcctcccct gtctcctccg aggactgtca ggtgaccccc       120
+     gtaatccatg tgctgcagta ccccggctgc gtgcctaagc ctatcccctc cttcgcctgt       180
+     actggccgct gcagcagcta tcttcaggtg agcggttcca agatttggca gatggagcga       240
+     tcgtgcatgt gttgtcagga gagcggcgag cgagaggcga gtgtctcact gttttgcccc       300
+     aaggctaaag cgggggagag gaagttcagg aaggtgatca cgaaggcccc gctcgagtgc       360
+     atgtgtcgtc cgtgcacagg agtggaagag agcgcagtcg tgccccagga gatcgcaggc       420
+     tacacagacg aaggccctct caacgcacac ttccaaaagt cccagtaa                    468
+//

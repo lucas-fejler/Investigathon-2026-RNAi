@@ -1,0 +1,80 @@
+{
+  "completed_region_numerators": {
+    "180": 27
+  },
+  "denominator": 180,
+  "per_gene": [
+    {
+      "candidate_id": "DM_ATP5F1B",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "DM_BURS_A",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "DM_ETH",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "DM_RPN6",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "DM_VATP_B",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "EPILAB_ATPaseD_Dm",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "EPILAB_BicC_Dm",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "EPILAB_CP_MRFV",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    },
+    {
+      "candidate_id": "EPILAB_MP_MRFV",
+      "completed_p_numerator_distribution": {
+        "180": 3
+      },
+      "constant_p_exact": "1",
+      "p_constant_across_complete_panel": true
+    }
+  ]
+}

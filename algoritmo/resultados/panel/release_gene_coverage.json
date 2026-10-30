@@ -1,0 +1,209 @@
+[
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "DM_ATP5F1B",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 2512,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "DM_BURS_A",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 266,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "DM_ETH",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 413,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "DM_RPN6",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 2311,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 361
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 361,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "DM_VATP_B",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 1470,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "EPILAB_ATPaseD_Dm",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 289,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "EPILAB_BicC_Dm",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Dalbulus maidis",
+    "outside_panel_regions": 2318,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "EPILAB_CP_MRFV",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Maize rayado fino virus",
+    "outside_panel_regions": 326,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 182
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 182,
+    "withholding_reasons": []
+  },
+  {
+    "a_complete": true,
+    "a_complete_regions": 3,
+    "admitted_regions": 3,
+    "candidate_id": "EPILAB_MP_MRFV",
+    "completed_p_numerator_distribution": {
+      "180": 3
+    },
+    "constant_p_exact": "1",
+    "organism": "Maize rayado fino virus",
+    "outside_panel_regions": 1061,
+    "p_complete": true,
+    "p_complete_regions": 3,
+    "p_constant_across_complete_panel": true,
+    "position_status_counts": {
+      "positive_complete": 186
+    },
+    "ranking_eligible": true,
+    "regional_position_memberships": 540,
+    "scores_verified_regions": 3,
+    "unique_positions": 186,
+    "withholding_reasons": []
+  }
+]

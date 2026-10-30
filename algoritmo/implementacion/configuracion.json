@@ -1,0 +1,1473 @@
+{
+  "auxiliary_files": {
+    "README.md": "Partner input documentation and limitations",
+    "SHA256SUMS.txt": "Partner package integrity checksums",
+    "auditoria/comparaciones.json": "Supplied comparison audit evidence, not candidate inputs",
+    "auditoria/diferencias.tsv": "Supplied comparison audit evidence, not candidate inputs",
+    "auditoria/saltos_de_alineamiento.tsv": "Supplied comparison audit evidence, not candidate inputs",
+    "comparacion_EPILAB/coordenadas.tsv": "Original EPILAB comparison fragments and mappings, not candidate inputs",
+    "comparacion_EPILAB/fragmentos_originales.fasta": "Original EPILAB comparison fragments and mappings, not candidate inputs",
+    "concordancia/criterios.tsv": "Optional concordance subset and mappings; not the primary candidate batch",
+    "concordancia/mapa_segmentos.tsv": "Optional concordance subset and mappings; not the primary candidate batch",
+    "concordancia/tramos_concordantes.fasta": "Optional concordance subset and mappings; not the primary candidate batch",
+    "fuentes/AF265566.1.embl": "Original source/provenance material, not an additional candidate input",
+    "fuentes/Andrada_Figure_S1.pdf": "Original source/provenance material, not an additional candidate input",
+    "fuentes/Andrada_transcriptos_suplemento.txt": "Original source/provenance material, not an additional candidate input",
+    "fuentes/Ensembl_anotaciones.gtf": "Original source/provenance material, not an additional candidate input",
+    "fuentes/Ensembl_modelos_originales.txt": "Original source/provenance material, not an additional candidate input",
+    "fuentes/Ensembl_proteinas_originales.txt": "Original source/provenance material, not an additional candidate input",
+    "fuentes/PZ371507.1.embl": "Original source/provenance material, not an additional candidate input",
+    "fuentes/PZ371508.1.embl": "Original source/provenance material, not an additional candidate input",
+    "fuentes/Sequences_EPILAB_original.xlsx": "Original source/provenance material, not an additional candidate input",
+    "fuentes/procedencia.json": "Original source/provenance material, not an additional candidate input",
+    "metadatos_genes.tsv": "Supplied candidate metadata; evidence for the preloaded registry",
+    "verificar.py": "Supplied read-only integrity and source verifier"
+  },
+  "candidates": {
+    "DM_ATP5F1B": {
+      "curation": {
+        "available_context": "predicted_transcript_with_annotated_CDS_and_UTRs",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000008792.1",
+        "gene_namespace": "Ensembl",
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000008792.1",
+            "interval_0based_half_open": [
+              0,
+              2714
+            ],
+            "interval_1based_inclusive": [
+              1,
+              2714
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000015711.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 2,
+          "file": "curation-alignments.json",
+          "query_sha256": "290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404",
+          "reference_id": "dmaidis|ENSCHMT00000015711.1",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "sequence_category": "predicted_transcript_with_annotated_CDS_and_UTRs",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "ENSCHMT00000015711.1",
+          "namespace": "Ensembl_transcript",
+          "public_accession_version": "ENSCHMT00000015711.1",
+          "supporting_file": "fuentes/Ensembl_modelos_originales.txt",
+          "version": "1"
+        },
+        "status": "curated",
+        "supplied_gene_label": "ATP sintasa beta",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "ATP5F1B"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "ATP synthase F1 subunit beta"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": "ENSCHMT00000015711.1",
+        "completeness": {
+          "cds": "complete_annotated",
+          "transcript": null
+        },
+        "gene": "ATP sintasa beta",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000015711.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "transcripto_predicho_con_UTR",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "DM_ATP5F1B",
+            "header_line": 17,
+            "identifier": "DM_ATP5F1B",
+            "role": "selected_candidate",
+            "source_record": 3
+          },
+          {
+            "file": "fuentes/Ensembl_modelos_originales.txt",
+            "file_sha256": "80d215cd990db8fad99755c72df88ef16537d46463a2d9e376b4225ca3071db6",
+            "header": "ENSCHMT00000015711.1 cdna ihDalMaid1.1:3:29251911:29265000:1 gene:ENSCHMG00000008792.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ATP5F1B description:\"ATP synthase F1 subunit beta [Ensembl NN prediction with score 99.17%]\"",
+            "header_line": 36,
+            "identifier": "ENSCHMT00000015711.1",
+            "identifier_type": "accession_version",
+            "role": "sequence_source"
+          }
+        ],
+        "is_epilab_candidate": false,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "1794",
+          "CDS_inicio_1based": "115",
+          "accesion_fuente": "ENSCHMT00000015711.1",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "ENSCHMT00000015711.1, CDS 115-1794; traduccion exacta a ENSCHMP00000011487.1 y correspondencia proteica previa con dos referencias de Cicadellidae.",
+          "fuente": "Ensembl_GCA_975739785.1_2026_02",
+          "gen": "ATP sintasa beta",
+          "id_gen": "DM_ATP5F1B",
+          "longitud_nt": "2714",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404",
+          "tipo_secuencia": "transcripto_predicho_con_UTR"
+        },
+        "source_accession_status": "supplied_and_sequence_verified"
+      },
+      "normalized_sequence_sha256": "290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404",
+      "original_sequence_sha256": "290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404",
+      "registration_source": {
+        "original_header": "DM_ATP5F1B",
+        "raw_record_sha256": "3cf48b14bb7bfaee8f6dbdfe275e7fdfc2f1e0b98ba64d4503a040cf15245b6c",
+        "source_file": "genes_9.fasta",
+        "source_record": 3
+      },
+      "sequence_length": 2714
+    },
+    "DM_BURS_A": {
+      "curation": {
+        "available_context": "complete_CDS_only_no_UTR_context",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000019276.1",
+        "gene_namespace": "Ensembl",
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000019276.1",
+            "interval_0based_half_open": [
+              0,
+              495
+            ],
+            "interval_1based_inclusive": [
+              1,
+              495
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000035014.1",
+            "supplied_orientation_relative_to_reference": "+"
+          },
+          {
+            "gene_id": "ENSCHMG00000019276.1",
+            "interval_0based_half_open": [
+              0,
+              800
+            ],
+            "interval_1based_inclusive": [
+              1,
+              800
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000035038.1",
+            "supplied_orientation_relative_to_reference": "+"
+          },
+          {
+            "gene_id": "ENSCHMG00000019276.1",
+            "interval_0based_half_open": [
+              0,
+              823
+            ],
+            "interval_1based_inclusive": [
+              1,
+              823
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000035052.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms.",
+          "Ensembl automatic SRSF3 label conflicts with the exact study-deposit CDS/protein; SRSF3 is not accepted as a Burs alias.",
+          "Supplement differs from deposit (14 substitutions and 3 gap columns); cause unknown.",
+          "Deposited mRNA is complete CDS only; natural full-transcript/UTR completeness is not established."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 1,
+          "file": "curation-alignments.json",
+          "query_sha256": "fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a",
+          "reference_id": "dmaidis|ENSCHMT00000035038.1",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "rejected_annotation_aliases": [
+          "SRSF3"
+        ],
+        "sequence_category": "complete_CDS_only_no_UTR_context",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "PZ371508.1",
+          "namespace": "INSDC_ENA",
+          "public_accession_version": "PZ371508.1",
+          "supporting_file": "fuentes/PZ371508.1.embl",
+          "version": "1"
+        },
+        "status": "curated",
+        "supplied_gene_label": "Burs-alpha",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "burs alpha",
+          "Burs-alpha"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "bursicon alpha"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": "PZ371508.1",
+        "completeness": {
+          "cds": "complete_annotated",
+          "transcript": null
+        },
+        "gene": "Burs-alpha",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000035014.1",
+          "dmaidis|ENSCHMT00000035038.1",
+          "dmaidis|ENSCHMT00000035052.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "CDS_completa_anotada",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "DM_BURS_A",
+            "header_line": 10,
+            "identifier": "DM_BURS_A",
+            "role": "selected_candidate",
+            "source_record": 2
+          },
+          {
+            "embl_accession_line": "AC   PZ371508;",
+            "embl_id_line": "ID   PZ371508; SV 1; linear; mRNA; STD; INV; 468 BP.",
+            "file": "fuentes/PZ371508.1.embl",
+            "file_sha256": "ca5867b2246c7b0b7d41f84109cebcda37df4550064b47dbb5aa0cffb7398901",
+            "identifier": "PZ371508.1",
+            "identifier_type": "accession_version",
+            "role": "sequence_source"
+          }
+        ],
+        "is_epilab_candidate": false,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "468",
+          "CDS_inicio_1based": "1",
+          "accesion_fuente": "PZ371508.1",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "PZ371508.1 fija identidad/descripcion y coincide exactamente con la CDS del modelo ENSCHMT00000035038.1. El suplemento difiere en 14 sustituciones y 3 columnas con hueco.",
+          "fuente": "INSDC_ENA",
+          "gen": "Burs-alpha",
+          "id_gen": "DM_BURS_A",
+          "longitud_nt": "468",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a",
+          "tipo_secuencia": "CDS_completa_anotada"
+        },
+        "source_accession_status": "supplied_and_sequence_verified"
+      },
+      "normalized_sequence_sha256": "fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a",
+      "original_sequence_sha256": "fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a",
+      "registration_source": {
+        "original_header": "DM_BURS_A",
+        "raw_record_sha256": "9d04d152daf2c60a23125809915f9e65086a387b7400b605e615bc814f4ef9b7",
+        "source_file": "genes_9.fasta",
+        "source_record": 2
+      },
+      "sequence_length": 468
+    },
+    "DM_ETH": {
+      "curation": {
+        "available_context": "complete_CDS_only_no_UTR_context",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000026171.1",
+        "gene_namespace": "Ensembl",
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000026171.1",
+            "interval_0based_half_open": [
+              0,
+              944
+            ],
+            "interval_1based_inclusive": [
+              1,
+              944
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000046906.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms.",
+          "Deposited mRNA is complete CDS only; natural full-transcript/UTR completeness is not established."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 0,
+          "file": "curation-alignments.json",
+          "query_sha256": "02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365",
+          "reference_id": "dmaidis|ENSCHMT00000046906.1",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "sequence_category": "complete_CDS_only_no_UTR_context",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "PZ371507.1",
+          "namespace": "INSDC_ENA",
+          "public_accession_version": "PZ371507.1",
+          "supporting_file": "fuentes/PZ371507.1.embl",
+          "version": "1"
+        },
+        "status": "curated",
+        "supplied_gene_label": "ETH",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "eth",
+          "ETH"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "ecdysis triggering hormone"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": "PZ371507.1",
+        "completeness": {
+          "cds": "complete_annotated",
+          "transcript": null
+        },
+        "gene": "ETH",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000046906.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "CDS_completa_anotada",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "DM_ETH",
+            "header_line": 1,
+            "identifier": "DM_ETH",
+            "role": "selected_candidate",
+            "source_record": 1
+          },
+          {
+            "embl_accession_line": "AC   PZ371507;",
+            "embl_id_line": "ID   PZ371507; SV 1; linear; mRNA; STD; INV; 615 BP.",
+            "file": "fuentes/PZ371507.1.embl",
+            "file_sha256": "c38c9bd30e6638d14c402bbe851a0b55cc87953f9a4a5f8ec1f11213acc7ddad",
+            "identifier": "PZ371507.1",
+            "identifier_type": "accession_version",
+            "role": "sequence_source"
+          }
+        ],
+        "is_epilab_candidate": false,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "615",
+          "CDS_inicio_1based": "1",
+          "accesion_fuente": "PZ371507.1",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "Deposito del estudio PZ371507.1; CDS completa. Coincide con el modelo genomico y con el suplemento al orientar correctamente.",
+          "fuente": "INSDC_ENA",
+          "gen": "ETH",
+          "id_gen": "DM_ETH",
+          "longitud_nt": "615",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365",
+          "tipo_secuencia": "CDS_completa_anotada"
+        },
+        "source_accession_status": "supplied_and_sequence_verified"
+      },
+      "normalized_sequence_sha256": "02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365",
+      "original_sequence_sha256": "02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365",
+      "registration_source": {
+        "original_header": "DM_ETH",
+        "raw_record_sha256": "7b338cb864621597a05ff441dd9d5a33b30c789718fe01a424a8404af531b025",
+        "source_file": "genes_9.fasta",
+        "source_record": 1
+      },
+      "sequence_length": 615
+    },
+    "DM_RPN6": {
+      "curation": {
+        "accepted_target_decision": {
+          "accepted_gene_id": "ENSCHMG00000008527.1",
+          "candidate_id_policy": "Retain DM_RPN6 for compatibility and traceability; Rpn6 is a legacy supplied label, not an accepted alias for this target.",
+          "date": "2026-10-28",
+          "decision": "The supplied locus currently labeled DM_RPN6 is deliberately the PSMD6/Rpn7 target; the partner changed the target without communicating the change.",
+          "evidence": {
+            "file": "curation-alignments.json",
+            "nucleotide_comparison_index": 3,
+            "protein_comparison_indices": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "reference_snapshot": "M2_2026-10-28_v1"
+          },
+          "interpretation": "The user decision resolves targeting intent. Existing exact sequence correspondence and gene annotation establish the reference locus/variants; the preserved protein comparisons support PSMD6/Rpn7 identity without replacing the supplied sequence.",
+          "source": "explicit_user_confirmation_in_project_task",
+          "variant_scope": "Only the three annotated transcripts of ENSCHMG00000008527.1 in the frozen Ensembl 2026_02 snapshot are intended; other proteasome loci are not included."
+        },
+        "available_context": "predicted_transcript_with_annotated_CDS_and_UTRs",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000008527.1",
+        "gene_namespace": "Ensembl",
+        "historical_gene_identity_conflict_evidence": {
+          "comparison_indices": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "file": "curation-alignments.json",
+          "hypothesis": "PSMD6/Rpn7-like; not promoted to a verified gene identity or an intended-target choice"
+        },
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000008527.1",
+            "interval_0based_half_open": [
+              0,
+              2513
+            ],
+            "interval_1based_inclusive": [
+              1,
+              2513
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000015190.1",
+            "supplied_orientation_relative_to_reference": "+"
+          },
+          {
+            "gene_id": "ENSCHMG00000008527.1",
+            "interval_0based_half_open": [
+              0,
+              4739
+            ],
+            "interval_1based_inclusive": [
+              1,
+              4739
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000015206.1",
+            "supplied_orientation_relative_to_reference": "+"
+          },
+          {
+            "gene_id": "ENSCHMG00000008527.1",
+            "interval_0based_half_open": [
+              0,
+              4274
+            ],
+            "interval_1based_inclusive": [
+              1,
+              4274
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000015227.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 3,
+          "file": "curation-alignments.json",
+          "query_sha256": "163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584",
+          "reference_id": "dmaidis|ENSCHMT00000015190.1",
+          "target_assignment": "Explicit user acceptance of PSMD6/Rpn7 at ENSCHMG00000008527.1, exact supplied transcript correspondence, and all three annotated variants of that locus in the frozen snapshot only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "sequence_category": "predicted_transcript_with_annotated_CDS_and_UTRs",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "ENSCHMT00000015190.1",
+          "namespace": "Ensembl_transcript",
+          "public_accession_version": "ENSCHMT00000015190.1",
+          "supporting_file": "fuentes/Ensembl_modelos_originales.txt",
+          "version": "1"
+        },
+        "status": "curated",
+        "supplied_gene_label": "Rpn6",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "PSMD6",
+          "Rpn7"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "26S proteasome non-ATPase regulatory subunit 6 (PSMD6/Rpn7)"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": "ENSCHMT00000015190.1",
+        "completeness": {
+          "cds": "complete_annotated",
+          "transcript": null
+        },
+        "gene": "PSMD6/Rpn7",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000015190.1",
+          "dmaidis|ENSCHMT00000015206.1",
+          "dmaidis|ENSCHMT00000015227.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "transcripto_predicho_con_UTR",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "DM_RPN6",
+            "header_line": 52,
+            "identifier": "DM_RPN6",
+            "role": "selected_candidate",
+            "source_record": 4
+          },
+          {
+            "file": "fuentes/Ensembl_modelos_originales.txt",
+            "file_sha256": "80d215cd990db8fad99755c72df88ef16537d46463a2d9e376b4225ca3071db6",
+            "header": "ENSCHMT00000015190.1 cdna ihDalMaid1.1:4:3658786:3666385:1 gene:ENSCHMG00000008527.1 gene_biotype:protein_coding transcript_biotype:protein_coding",
+            "header_line": 118,
+            "identifier": "ENSCHMT00000015190.1",
+            "identifier_type": "accession_version",
+            "role": "sequence_source"
+          }
+        ],
+        "is_epilab_candidate": false,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "1514",
+          "CDS_inicio_1based": "300",
+          "accesion_fuente": "ENSCHMT00000015190.1",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "ENSCHMT00000015190.1, CDS 300-1514; el mismo segmento codificante aparece identico en las otras dos isoformas largas anotadas revisadas.",
+          "fuente": "Ensembl_GCA_975739785.1_2026_02",
+          "gen": "Rpn6",
+          "id_gen": "DM_RPN6",
+          "longitud_nt": "2513",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584",
+          "tipo_secuencia": "transcripto_predicho_con_UTR"
+        },
+        "source_accession_status": "supplied_and_sequence_verified"
+      },
+      "normalized_sequence_sha256": "163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584",
+      "original_sequence_sha256": "163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584",
+      "registration_source": {
+        "original_header": "DM_RPN6",
+        "raw_record_sha256": "317479f80891b2e784248aa0bce9a7b4534bea63514752e3e6f2461c1bdb0c35",
+        "source_file": "genes_9.fasta",
+        "source_record": 4
+      },
+      "sequence_length": 2513
+    },
+    "DM_VATP_B": {
+      "curation": {
+        "available_context": "predicted_transcript_with_annotated_CDS_and_UTRs",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000002209.1",
+        "gene_namespace": "Ensembl",
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000002209.1",
+            "interval_0based_half_open": [
+              0,
+              1672
+            ],
+            "interval_1based_inclusive": [
+              1,
+              1672
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000003421.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 4,
+          "file": "curation-alignments.json",
+          "query_sha256": "6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae",
+          "reference_id": "dmaidis|ENSCHMT00000003421.1",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "sequence_category": "predicted_transcript_with_annotated_CDS_and_UTRs",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "ENSCHMT00000003421.1",
+          "namespace": "Ensembl_transcript",
+          "public_accession_version": "ENSCHMT00000003421.1",
+          "supporting_file": "fuentes/Ensembl_modelos_originales.txt",
+          "version": "1"
+        },
+        "status": "curated",
+        "supplied_gene_label": "V-ATPasa B",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "ATP6V1B2"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "V-type proton ATPase subunit B"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": "ENSCHMT00000003421.1",
+        "completeness": {
+          "cds": "complete_annotated",
+          "transcript": null
+        },
+        "gene": "V-ATPasa B",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000003421.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "transcripto_predicho_con_UTR",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "DM_VATP_B",
+            "header_line": 85,
+            "identifier": "DM_VATP_B",
+            "role": "selected_candidate",
+            "source_record": 5
+          },
+          {
+            "file": "fuentes/Ensembl_modelos_originales.txt",
+            "file_sha256": "80d215cd990db8fad99755c72df88ef16537d46463a2d9e376b4225ca3071db6",
+            "header": "ENSCHMT00000003421.1 cdna ihDalMaid1.1:2:38943107:38957334:1 gene:ENSCHMG00000002209.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ATP6V1B2 description:\"ATPase H+ transporting V1 subunit B2 [Ensembl NN prediction with score 90.84%]\"",
+            "header_line": 14,
+            "identifier": "ENSCHMT00000003421.1",
+            "identifier_type": "accession_version",
+            "role": "sequence_source"
+          }
+        ],
+        "is_epilab_candidate": false,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "1665",
+          "CDS_inicio_1based": "163",
+          "accesion_fuente": "ENSCHMT00000003421.1",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "ENSCHMT00000003421.1 / ATP6V1B2, CDS 163-1665; traduccion exacta a ENSCHMP00000001802.1.",
+          "fuente": "Ensembl_GCA_975739785.1_2026_02",
+          "gen": "V-ATPasa B",
+          "id_gen": "DM_VATP_B",
+          "longitud_nt": "1672",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae",
+          "tipo_secuencia": "transcripto_predicho_con_UTR"
+        },
+        "source_accession_status": "supplied_and_sequence_verified"
+      },
+      "normalized_sequence_sha256": "6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae",
+      "original_sequence_sha256": "6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae",
+      "registration_source": {
+        "original_header": "DM_VATP_B",
+        "raw_record_sha256": "b54a9e0511d329994e492c3b4fe946a69d7ffb99ff7127446667a86ffdb72351",
+        "source_file": "genes_9.fasta",
+        "source_record": 5
+      },
+      "sequence_length": 1672
+    },
+    "EPILAB_ATPaseD_Dm": {
+      "curation": {
+        "available_context": "partial_CDS_fragment",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000022403.1",
+        "gene_namespace": "Ensembl",
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000022403.1",
+            "interval_0based_half_open": [
+              0,
+              1785
+            ],
+            "interval_1based_inclusive": [
+              1,
+              1785
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000040404.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Original public accession and exact original biological source/isolate are undeclared; workbook source and original bytes are retained.",
+          "Matching a public sequence does not establish the historical source accession of the supplied material.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms.",
+          "Two substitutions relative to the selected model; cause unknown and original fragment context cannot be extended from the comparator."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 6,
+          "file": "curation-alignments.json",
+          "query_sha256": "96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f",
+          "reference_id": "dmaidis|ENSCHMT00000040404.1",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "sequence_category": "partial_CDS_fragment",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "ATPaseD_Dm",
+          "namespace": "EPILAB_workbook",
+          "public_accession_version": null,
+          "supporting_file": "fuentes/Sequences_EPILAB_original.xlsx",
+          "version": null
+        },
+        "status": "curated",
+        "supplied_gene_label": "ATPasa D",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "ATPase D",
+          "ATP6V1D"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "V-type proton ATPase subunit D"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": null,
+        "completeness": {
+          "cds": "partial_reference_CDS_fragment",
+          "transcript": null
+        },
+        "gene": "ATPasa D",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000040404.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "secuencia_proporcionada_EPILAB",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "EPILAB_ATPaseD_Dm",
+            "header_line": 140,
+            "identifier": "EPILAB_ATPaseD_Dm",
+            "role": "selected_candidate",
+            "source_record": 7
+          },
+          {
+            "file": "fuentes/Sequences_EPILAB_original.xlsx",
+            "file_sha256": "0a07cddd89028171f9f17e893ac31bf583ae2752008f7c28c2a24a9d5a660192",
+            "identifier": "ATPaseD_Dm",
+            "identifier_cell": "B5",
+            "identifier_type": "supplied_workbook_gene_label",
+            "role": "sequence_source",
+            "sequence_cell": "D5",
+            "sheet": "Hoja1"
+          },
+          {
+            "file": "fuentes/Ensembl_modelos_originales.txt",
+            "file_sha256": "80d215cd990db8fad99755c72df88ef16537d46463a2d9e376b4225ca3071db6",
+            "header": "ENSCHMT00000040404.1 cdna ihDalMaid1.1:8:30144329:30154228:-1 gene:ENSCHMG00000022403.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ATP6V1D description:\"ATPase H+ transporting V1 subunit D [Ensembl NN prediction with score 100%]\"",
+            "header_line": 278,
+            "identifier": "ENSCHMT00000040404.1",
+            "identifier_type": "accession_version",
+            "mapping_evidence": {
+              "file": "auditoria/comparaciones.json",
+              "file_sha256": "67e9a528b72ffdd6ca265cd9815dc94e48dd2cfed9d52d37998a0d513a5917db",
+              "json_pointer": "/genes/EPILAB_ATPaseD_Dm/comparisons/0"
+            },
+            "relationship": "documented_differences_from_supplied_EPILAB_sequence",
+            "role": "comparison_only",
+            "source_note": "La columna D5 fija un segmento de 491 nt. El modelo ENSCHMT00000040404.1 / ATP6V1D muestra 2 sustituciones."
+          }
+        ],
+        "is_epilab_candidate": true,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "",
+          "CDS_inicio_1based": "",
+          "accesion_fuente": "",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "La columna D5 fija un segmento de 491 nt. El modelo ENSCHMT00000040404.1 / ATP6V1D muestra 2 sustituciones.",
+          "fuente": "EPILAB_Sequences_EPILAB.xlsx_columna_D",
+          "gen": "ATPasa D",
+          "id_gen": "EPILAB_ATPaseD_Dm",
+          "longitud_nt": "491",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f",
+          "tipo_secuencia": "secuencia_proporcionada_EPILAB"
+        },
+        "source_accession_status": "not_declared_for_original_EPILAB_sequence"
+      },
+      "normalized_sequence_sha256": "96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f",
+      "original_sequence_sha256": "96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f",
+      "registration_source": {
+        "original_header": "EPILAB_ATPaseD_Dm",
+        "raw_record_sha256": "6008e336520e4652f3e1931459d5e14cfa009a3cedebe2ea50733ab7fa24db0a",
+        "source_file": "genes_9.fasta",
+        "source_record": 7
+      },
+      "sequence_length": 491
+    },
+    "EPILAB_BicC_Dm": {
+      "curation": {
+        "available_context": "supplied_transcript_derived_sequence_completeness_undeclared",
+        "dataset_id": "dmaidis",
+        "gene_id": "ENSCHMG00000010289.1",
+        "gene_namespace": "Ensembl",
+        "intended_targets": [
+          {
+            "gene_id": "ENSCHMG00000010289.1",
+            "interval_0based_half_open": [
+              0,
+              3633
+            ],
+            "interval_1based_inclusive": [
+              1,
+              3633
+            ],
+            "reference_id": "dmaidis|ENSCHMT00000018425.1",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Original public accession and exact original biological source/isolate are undeclared; workbook source and original bytes are retained.",
+          "Matching a public sequence does not establish the historical source accession of the supplied material.",
+          "Intended variants are the annotated transcripts of the evidence-linked Ensembl gene in this frozen release, not all possible biological isoforms.",
+          "Model comparison retains 3 substitutions and a 36-nt gap in the supplied sequence; cause unknown, no replacement or synthetic isoform assignment."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 5,
+          "file": "curation-alignments.json",
+          "query_sha256": "03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02",
+          "reference_id": "dmaidis|ENSCHMT00000018425.1",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Dalbulus maidis",
+        "organism_evidence": [
+          "sources/ncbi_taxon_74065.json",
+          "official Ensembl GCA_975739785.1 / 2026_02 transcript/GTF; sequence correspondence to evidence-linked locus"
+        ],
+        "sequence_category": "supplied_transcript_derived_sequence_completeness_undeclared",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "BicC_Dm",
+          "namespace": "EPILAB_workbook",
+          "public_accession_version": null,
+          "supporting_file": "fuentes/Sequences_EPILAB_original.xlsx",
+          "version": null
+        },
+        "status": "curated",
+        "supplied_gene_label": "BicC",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "BicC",
+          "BICC1"
+        ],
+        "taxon_id": 74065,
+        "taxonomic_assignment": {
+          "current_species_name": "Dalbulus maidis",
+          "current_species_taxon_id": 74065,
+          "evidence_file": "sources/taxonomy_74065.xml",
+          "record_taxon_id": 74065,
+          "record_taxon_name": "Dalbulus maidis",
+          "record_taxon_rank": "species"
+        },
+        "unresolved_required": [],
+        "variant_policy": "all_annotated_transcripts_of_gene",
+        "verified_gene_name": "BicC family RNA binding protein 1"
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": null,
+        "completeness": {
+          "cds": null,
+          "transcript": null
+        },
+        "gene": "BicC",
+        "intended_reference_ids": [
+          "dmaidis|ENSCHMT00000018425.1"
+        ],
+        "organism": "Dalbulus maidis",
+        "sequence_type": "secuencia_proporcionada_EPILAB",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "EPILAB_BicC_Dm",
+            "header_line": 107,
+            "identifier": "EPILAB_BicC_Dm",
+            "role": "selected_candidate",
+            "source_record": 6
+          },
+          {
+            "file": "fuentes/Sequences_EPILAB_original.xlsx",
+            "file_sha256": "0a07cddd89028171f9f17e893ac31bf583ae2752008f7c28c2a24a9d5a660192",
+            "identifier": "BicC_Dm",
+            "identifier_cell": "B4",
+            "identifier_type": "supplied_workbook_gene_label",
+            "role": "sequence_source",
+            "sequence_cell": "D4",
+            "sheet": "Hoja1"
+          },
+          {
+            "file": "fuentes/Ensembl_modelos_originales.txt",
+            "file_sha256": "80d215cd990db8fad99755c72df88ef16537d46463a2d9e376b4225ca3071db6",
+            "header": "ENSCHMT00000018425.1 cdna ihDalMaid1.1:3:38449794:38487913:1 gene:ENSCHMG00000010289.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:BICC1 description:\"BicC family RNA binding protein 1 [Ensembl NN prediction with score 99.55%]\"",
+            "header_line": 71,
+            "identifier": "ENSCHMT00000018425.1",
+            "identifier_type": "accession_version",
+            "mapping_evidence": {
+              "file": "auditoria/comparaciones.json",
+              "file_sha256": "67e9a528b72ffdd6ca265cd9815dc94e48dd2cfed9d52d37998a0d513a5917db",
+              "json_pointer": "/genes/EPILAB_BicC_Dm/comparisons/0"
+            },
+            "relationship": "documented_differences_from_supplied_EPILAB_sequence",
+            "role": "comparison_only",
+            "source_note": "La columna D4 de EPILAB fija las bases originales. ENSCHMT00000018425.1 / BICC1 respalda la correspondencia; hay 3 sustituciones y una diferencia interna de 36 nt."
+          }
+        ],
+        "is_epilab_candidate": true,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "",
+          "CDS_inicio_1based": "",
+          "accesion_fuente": "",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "La columna D4 de EPILAB fija las bases originales. ENSCHMT00000018425.1 / BICC1 respalda la correspondencia; hay 3 sustituciones y una diferencia interna de 36 nt.",
+          "fuente": "EPILAB_Sequences_EPILAB.xlsx_columna_D",
+          "gen": "BicC",
+          "id_gen": "EPILAB_BicC_Dm",
+          "longitud_nt": "2520",
+          "organismo": "Dalbulus maidis",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02",
+          "tipo_secuencia": "secuencia_proporcionada_EPILAB"
+        },
+        "source_accession_status": "not_declared_for_original_EPILAB_sequence"
+      },
+      "normalized_sequence_sha256": "03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02",
+      "original_sequence_sha256": "03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02",
+      "registration_source": {
+        "original_header": "EPILAB_BicC_Dm",
+        "raw_record_sha256": "4a428392879433587abb9e91f217697cdafc98b1514cfafba0f7978f4a272be7",
+        "source_file": "genes_9.fasta",
+        "source_record": 6
+      },
+      "sequence_length": 2520
+    },
+    "EPILAB_CP_MRFV": {
+      "curation": {
+        "available_context": "partial_capsid_CDS_fragment",
+        "dataset_id": "mrfv",
+        "gene_id": "921087",
+        "gene_namespace": "NCBI_Gene",
+        "intended_targets": [
+          {
+            "feature_id": "PRO_0000402498",
+            "gene_id": "921087",
+            "interval_0based_half_open": [
+              5496,
+              6210
+            ],
+            "interval_1based_inclusive": [
+              5497,
+              6210
+            ],
+            "reference_id": "mrfv|NC_002786.2",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Original public accession and exact original biological source/isolate are undeclared; workbook source and original bytes are retained.",
+          "Matching a public sequence does not establish the historical source accession of the supplied material.",
+          "One RefSeq comparison isolate and capsid/polyprotein annotation; original EPILAB isolate is not assigned by sequence equality."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 8,
+          "file": "curation-alignments.json",
+          "query_sha256": "cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d",
+          "reference_id": "mrfv|NC_002786.2",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Maize rayado fino virus",
+        "organism_evidence": [
+          "sources/NC_002786.2.gb",
+          "sources/taxonomy_59749.xml",
+          "exact full-query sequence correspondence to versioned viral record"
+        ],
+        "sequence_category": "partial_capsid_CDS_fragment",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "CP_MRFV",
+          "namespace": "EPILAB_workbook",
+          "public_accession_version": null,
+          "supporting_file": "fuentes/Sequences_EPILAB_original.xlsx",
+          "version": null
+        },
+        "status": "curated",
+        "supplied_gene_label": "CP de MRFV",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "CP",
+          "capsid protein CP1"
+        ],
+        "taxon_id": 59749,
+        "taxonomic_assignment": {
+          "current_species_name": "Marafivirus maydis",
+          "current_species_taxon_id": 3048192,
+          "evidence_file": "sources/taxonomy_59749.xml",
+          "record_taxon_id": 59749,
+          "record_taxon_name": "Maize rayado fino virus",
+          "record_taxon_rank": "no rank"
+        },
+        "unresolved_required": [],
+        "variant_policy": "specified_feature_interval",
+        "verified_gene_name": "capsid protein CP1",
+        "version_discrepancy_resolution": {
+          "current_comparison": "AF265566.2 = NC_002786.2",
+          "current_gap_bases": 0,
+          "current_mismatches": 0,
+          "current_refseq_identical_query_span": [
+            [
+              5673,
+              6201
+            ]
+          ],
+          "historical_original_source_accession": null,
+          "old_comparison": "AF265566.1"
+        }
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": null,
+        "completeness": {
+          "cds": "partial_reference_CDS_fragment",
+          "transcript": null
+        },
+        "gene": "CP de MRFV",
+        "intended_reference_ids": [
+          "mrfv|NC_002786.2"
+        ],
+        "organism": "Maize rayado fino virus",
+        "sequence_type": "secuencia_proporcionada_EPILAB",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "EPILAB_CP_MRFV",
+            "header_line": 165,
+            "identifier": "EPILAB_CP_MRFV",
+            "role": "selected_candidate",
+            "source_record": 9
+          },
+          {
+            "file": "fuentes/Sequences_EPILAB_original.xlsx",
+            "file_sha256": "0a07cddd89028171f9f17e893ac31bf583ae2752008f7c28c2a24a9d5a660192",
+            "identifier": "CP_MRFV",
+            "identifier_cell": "B3",
+            "identifier_type": "supplied_workbook_gene_label",
+            "role": "sequence_source",
+            "sequence_cell": "D3",
+            "sheet": "Hoja1"
+          },
+          {
+            "embl_accession_line": "AC   AF265566;",
+            "embl_id_line": "ID   AF265566; SV 1; linear; genomic RNA; STD; VRL; 6305 BP.",
+            "file": "fuentes/AF265566.1.embl",
+            "file_sha256": "7f7b0fa07bd8776fa2bec9196c75fa9f9ff28a293474a8b34118946bb26e543a",
+            "identifier": "AF265566.1",
+            "identifier_type": "accession_version",
+            "mapping_evidence": {
+              "file": "auditoria/comparaciones.json",
+              "file_sha256": "67e9a528b72ffdd6ca265cd9815dc94e48dd2cfed9d52d37998a0d513a5917db",
+              "json_pointer": "/genes/EPILAB_CP_MRFV/comparisons/0"
+            },
+            "relationship": "documented_differences_from_supplied_EPILAB_sequence",
+            "role": "comparison_only",
+            "source_note": "La columna D3 fija un segmento de 528 nt; alineado dentro de la CDS de la poliproteina de AF265566.1, con 6 sustituciones."
+          }
+        ],
+        "is_epilab_candidate": true,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "",
+          "CDS_inicio_1based": "",
+          "accesion_fuente": "",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "La columna D3 fija un segmento de 528 nt; alineado dentro de la CDS de la poliproteina de AF265566.1, con 6 sustituciones.",
+          "fuente": "EPILAB_Sequences_EPILAB.xlsx_columna_D",
+          "gen": "CP de MRFV",
+          "id_gen": "EPILAB_CP_MRFV",
+          "longitud_nt": "528",
+          "organismo": "Maize rayado fino virus",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d",
+          "tipo_secuencia": "secuencia_proporcionada_EPILAB"
+        },
+        "source_accession_status": "not_declared_for_original_EPILAB_sequence"
+      },
+      "normalized_sequence_sha256": "cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d",
+      "original_sequence_sha256": "cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d",
+      "registration_source": {
+        "original_header": "EPILAB_CP_MRFV",
+        "raw_record_sha256": "9f8d83d23054da019334793536c35535a85959453722604dd92f1e61abb2f5b5",
+        "source_file": "genes_9.fasta",
+        "source_record": 9
+      },
+      "sequence_length": 528
+    },
+    "EPILAB_MP_MRFV": {
+      "curation": {
+        "available_context": "complete_annotated_viral_CDS_without_genomic_flanks",
+        "dataset_id": "mrfv",
+        "gene_id": "921088",
+        "gene_namespace": "NCBI_Gene",
+        "intended_targets": [
+          {
+            "feature_id": "IM012_gp2",
+            "gene_id": "921088",
+            "interval_0based_half_open": [
+              331,
+              1594
+            ],
+            "interval_1based_inclusive": [
+              332,
+              1594
+            ],
+            "reference_id": "mrfv|NC_002786.2",
+            "supplied_orientation_relative_to_reference": "+"
+          }
+        ],
+        "limitations": [
+          "Species/record assignment does not establish population-wide sequence identity, expression, or biological efficacy.",
+          "Original public accession and exact original biological source/isolate are undeclared; workbook source and original bytes are retained.",
+          "Matching a public sequence does not establish the historical source accession of the supplied material.",
+          "One RefSeq comparison isolate and capsid/polyprotein annotation; original EPILAB isolate is not assigned by sequence equality."
+        ],
+        "mapping_evidence": {
+          "comparison_index": 7,
+          "file": "curation-alignments.json",
+          "query_sha256": "7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51",
+          "reference_id": "mrfv|NC_002786.2",
+          "target_assignment": "Versioned sequence correspondence plus official gene annotation; gene-specific variants or the named viral feature only."
+        },
+        "organism": "Maize rayado fino virus",
+        "organism_evidence": [
+          "sources/NC_002786.2.gb",
+          "sources/taxonomy_59749.xml",
+          "exact full-query sequence correspondence to versioned viral record"
+        ],
+        "sequence_category": "complete_annotated_viral_CDS_without_genomic_flanks",
+        "source_comparison_distinction": "Source provenance and intended targets are separate decisions; historical comparison links remain comparison_only.",
+        "source_identifier": {
+          "identifier": "MP_MRFV",
+          "namespace": "EPILAB_workbook",
+          "public_accession_version": null,
+          "supporting_file": "fuentes/Sequences_EPILAB_original.xlsx",
+          "version": null
+        },
+        "status": "curated",
+        "supplied_gene_label": "MP putativa de MRFV",
+        "supplied_orientation_relative_to_reference": "+",
+        "supported_aliases": [
+          "MP",
+          "IM012_gp2"
+        ],
+        "taxon_id": 59749,
+        "taxonomic_assignment": {
+          "current_species_name": "Marafivirus maydis",
+          "current_species_taxon_id": 3048192,
+          "evidence_file": "sources/taxonomy_59749.xml",
+          "record_taxon_id": 59749,
+          "record_taxon_name": "Maize rayado fino virus",
+          "record_taxon_rank": "no rank"
+        },
+        "unresolved_required": [],
+        "variant_policy": "specified_feature_interval",
+        "verified_gene_name": "putative movement protein",
+        "version_discrepancy_resolution": {
+          "current_comparison": "AF265566.2 = NC_002786.2",
+          "current_gap_bases": 0,
+          "current_mismatches": 0,
+          "current_refseq_identical_query_span": [
+            [
+              331,
+              1594
+            ]
+          ],
+          "historical_original_source_accession": null,
+          "old_comparison": "AF265566.1"
+        }
+      },
+      "curation_status": "curated",
+      "metadata": {
+        "accession_version": null,
+        "completeness": {
+          "cds": "complete_annotated_reference_CDS_exact_match",
+          "transcript": null
+        },
+        "gene": "MP putativa de MRFV",
+        "intended_reference_ids": [
+          "mrfv|NC_002786.2"
+        ],
+        "organism": "Maize rayado fino virus",
+        "sequence_type": "secuencia_proporcionada_EPILAB",
+        "supplied_orientation": "5prime_to_3prime_fuente"
+      },
+      "metadata_evidence": {
+        "file": "metadatos_genes.tsv",
+        "file_sha256": "9b608281ec857f3ed9f5bbe6943faa39c5b8125af69b3605926654a706f2ad7f",
+        "identifier_links": [
+          {
+            "file": "genes_9.fasta",
+            "header": "EPILAB_MP_MRFV",
+            "header_line": 148,
+            "identifier": "EPILAB_MP_MRFV",
+            "role": "selected_candidate",
+            "source_record": 8
+          },
+          {
+            "file": "fuentes/Sequences_EPILAB_original.xlsx",
+            "file_sha256": "0a07cddd89028171f9f17e893ac31bf583ae2752008f7c28c2a24a9d5a660192",
+            "identifier": "MP_MRFV",
+            "identifier_cell": "B2",
+            "identifier_type": "supplied_workbook_gene_label",
+            "role": "sequence_source",
+            "sequence_cell": "D2",
+            "sheet": "Hoja1"
+          },
+          {
+            "embl_accession_line": "AC   AF265566;",
+            "embl_id_line": "ID   AF265566; SV 1; linear; genomic RNA; STD; VRL; 6305 BP.",
+            "file": "fuentes/AF265566.1.embl",
+            "file_sha256": "7f7b0fa07bd8776fa2bec9196c75fa9f9ff28a293474a8b34118946bb26e543a",
+            "identifier": "AF265566.1",
+            "identifier_type": "accession_version",
+            "mapping_evidence": {
+              "file": "auditoria/comparaciones.json",
+              "file_sha256": "67e9a528b72ffdd6ca265cd9815dc94e48dd2cfed9d52d37998a0d513a5917db",
+              "json_pointer": "/genes/EPILAB_MP_MRFV/comparisons/0"
+            },
+            "relationship": "documented_differences_from_supplied_EPILAB_sequence",
+            "role": "comparison_only",
+            "source_note": "La columna D2 fija las bases originales; AF265566.1 anota una proteina de movimiento putativa. Cotejo: 10 sustituciones y 3 nt de diferencia interna."
+          }
+        ],
+        "is_epilab_candidate": true,
+        "original_row": {
+          "CDS_fin_1based_inclusivo": "",
+          "CDS_inicio_1based": "",
+          "accesion_fuente": "",
+          "alcance": "Longitud disponible de la referencia declarada; sin recorte por concordancia. No implica transcripto natural completo ni todas las variantes.",
+          "criterio_referencia": "La columna D2 fija las bases originales; AF265566.1 anota una proteina de movimiento putativa. Cotejo: 10 sustituciones y 3 nt de diferencia interna.",
+          "fuente": "EPILAB_Sequences_EPILAB.xlsx_columna_D",
+          "gen": "MP putativa de MRFV",
+          "id_gen": "EPILAB_MP_MRFV",
+          "longitud_nt": "1263",
+          "organismo": "Maize rayado fino virus",
+          "orientacion": "5prime_to_3prime_fuente",
+          "sha256_secuencia": "7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51",
+          "tipo_secuencia": "secuencia_proporcionada_EPILAB"
+        },
+        "source_accession_status": "not_declared_for_original_EPILAB_sequence"
+      },
+      "normalized_sequence_sha256": "7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51",
+      "original_sequence_sha256": "7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51",
+      "registration_source": {
+        "original_header": "EPILAB_MP_MRFV",
+        "raw_record_sha256": "7b78201321d6917d2dca38f72bb80234cac9fff58065a82a9b90acdbe7905db8",
+        "source_file": "genes_9.fasta",
+        "source_record": 8
+      },
+      "sequence_length": 1263
+    }
+  },
+  "expected_final_candidates": 9,
+  "fixture_profile": {
+    "adapter": "pass_uppercase_DNA_IUPAC_80_column_FASTA_native_T_as_U_other_IUPAC_as_N",
+    "alignment_length_semantics": "nonspace_query_nucleotides_in_alignment_rows_3_and_4",
+    "authority": "Current user prompt delegates fixture-only Q09/Q10 selection; production settings and omission acceptance remain open.",
+    "bulge_loop_limit": 15,
+    "compact_output": true,
+    "comparison_identity": "query_hash_reference_hash_raw_position_and_four_alignment_rows_v1",
+    "energy_cutoff": -10.0,
+    "evd_theta": 1.0,
+    "evd_xi": 0.0,
+    "grouping": "one_query_one_target_except_declared_diagnostic_batches",
+    "helix_constraint": null,
+    "hit_limit": 5,
+    "internal_loop_limit": 15,
+    "max_query_length": 21,
+    "max_target_length": 109224,
+    "min_align_length": 18,
+    "native_id_policy": "short_colon_free_aliases_with_exact_identity_ledger",
+    "native_version": "RNAhybrid-2.1.2-upstream",
+    "parser_version": "compact_11_fields_strict_v1",
+    "plots": false,
+    "profile_id": "m4-fixture-v1",
+    "pvalue_cutoff": 1.0,
+    "schema_version": 1,
+    "species_parameter_set": null,
+    "target_limit_policy": "verify_global_then_target_specific",
+    "timeout_seconds": 120,
+    "tool_directory": "tools/rnahybrid/2.1.2"
+  },
+  "input_files": [
+    "genes_9.fasta"
+  ],
+  "policies": {
+    "accepted_alphabet": "ACGT",
+    "allow_u_to_t": false,
+    "case_normalization": "ascii_uppercase",
+    "exported_coordinates": "one_based_inclusive",
+    "identifier_extraction": "first_whitespace_delimited_token",
+    "identifier_pattern": "[A-Za-z0-9_.-]+",
+    "internal_coordinates": "zero_based_half_open",
+    "minimum_length": 200,
+    "orientation": "preserve_supplied"
+  },
+  "reference_manifest": {
+    "path": "references/2026-10-28/manifest.json",
+    "sha256": "216d2bfed4fb55e34a4b2d0a1b5993c43dc21f235ca3600813e2c591fde0dbf9"
+  },
+  "retrieval": {
+    "ambiguity_policy": "skip_non_ACGT_seeds_preserve_context",
+    "context_policy": "whole_record_forward_v1",
+    "dataset_ids": [
+      "bee",
+      "dmaidis",
+      "human",
+      "maize",
+      "mrfv"
+    ],
+    "evidence_encoding": "factorized-seeds-bitmap-v1",
+    "implementation_version": "m4-controlled-v1",
+    "k": 8,
+    "match_rule": "exact_complementary_any_query_offset",
+    "reference_orientation": "stored_forward",
+    "retrieval_unit": "query_reference_pair",
+    "schema_version": 1
+  },
+  "schema_version": 1
+}

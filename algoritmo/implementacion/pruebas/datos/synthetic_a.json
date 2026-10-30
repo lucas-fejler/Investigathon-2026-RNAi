@@ -1,0 +1,24 @@
+{
+  "completion_status": "completed_with_withheld",
+  "energy_table_identity": {
+    "energy_table_export_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "fixture": "synthetic",
+  "fixture_note": "SYNTHETIC FIXTURE. Not candidate evidence.",
+  "organisms": {
+    "SYN_GENE_A": "Dalbulus maidis",
+    "SYN_GENE_B": "Dalbulus maidis",
+    "SYN_GENE_D": "Dalbulus maidis",
+    "SYN_VIRAL_C": "Maize rayado fino virus"
+  },
+  "parent_lengths": {
+    "SYN_GENE_A@abaf70536925b3095c3efab160762440c3a8c6d54290345eb88ebfeb0ef68dd9": 203,
+    "SYN_GENE_B@9494eaa7dfe737b0bd75c6358a81470a8f9dccd08f5e9e36a6737111cc71e5d2": 202,
+    "SYN_GENE_D@58c21d0263cf2f55b78be16fa2a9a2a4cfc9235d65b85020b76dd59796341ea8": 200,
+    "SYN_VIRAL_C@9f61e68249eb62f79785442ce3f9bbc380bfc4d00922d0c84a6c36c657af8f4a": 201
+  },
+  "settings": {
+    "method_id": "synthetic-activity-fixture-v1"
+  },
+  "stage": "m6-asymmetry"
+}

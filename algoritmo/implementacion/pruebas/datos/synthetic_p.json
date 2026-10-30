@@ -1,0 +1,28 @@
+{
+  "completion_status": "completed_with_withheld",
+  "evidence_class": "synthetic_fixture",
+  "fixture": "synthetic",
+  "fixture_note": "SYNTHETIC FIXTURE. Not candidate evidence.",
+  "method_id": "synthetic-penalty-fixture-v1",
+  "p_interface_version": "p-interface-v0-provisional",
+  "per_candidate": [
+    {
+      "candidate_id": "SYN_GENE_A",
+      "completion_status": "complete"
+    },
+    {
+      "candidate_id": "SYN_GENE_B",
+      "completion_status": "complete"
+    },
+    {
+      "candidate_id": "SYN_VIRAL_C",
+      "completion_status": "complete"
+    },
+    {
+      "candidate_id": "SYN_GENE_D",
+      "completion_status": "withheld"
+    }
+  ],
+  "policy_id": "synthetic-policy-fixture-v1",
+  "stage": "m5-penalty"
+}

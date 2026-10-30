@@ -1,0 +1,77 @@
+{
+  "package_id": "INVESTIGATHON_FASTA_2026-10-27_DATOS",
+  "date": "2026-10-27",
+  "analysis_date": "2026-10-26",
+  "source_transformations": "Primary input preserves source bases and available length. Optional concordance tracts are contiguous subsequences, without substitutions or concatenations.",
+  "source_sequences_preserved_without_base_changes": true,
+  "public_md5_checks": [
+    {
+      "file": "cdna.fa.bgz",
+      "bytes": 21263593,
+      "md5": "b459008755902cdfed384556b94f3a51",
+      "sha256": "2c19bbc444719b0dd6ec7d14850850b38bd4d0cdfc34111170b1a5b967a48a8a",
+      "url": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/975/739/785/1/ensembl/2026_02/geneset/cdna.fa.bgz"
+    },
+    {
+      "file": "genes.gtf.gz",
+      "bytes": 10275488,
+      "md5": "31d9709d1702d08184d9afd22461296b",
+      "sha256": "8d8585612b8ce4c8d64eeaf15d314793d49b220f41da1f98891e839f885c9dbd",
+      "url": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/975/739/785/1/ensembl/2026_02/geneset/genes.gtf.gz"
+    },
+    {
+      "file": "pep.fa.bgz",
+      "bytes": 7021491,
+      "md5": "a55608ba1f142599607c0590bcbd1563",
+      "sha256": "9aea5cbe900dee2dd95924507ac84240b7904bdf102bfb8d38bf301ed79d500e",
+      "url": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/975/739/785/1/ensembl/2026_02/geneset/pep.fa.bgz"
+    }
+  ],
+  "public_requeries": [
+    {
+      "file": "ETH.embl",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/PZ371507.1",
+      "status": 200,
+      "bytes": 3169,
+      "sha256": "c38c9bd30e6638d14c402bbe851a0b55cc87953f9a4a5f8ec1f11213acc7ddad",
+      "consulted_date": "2026-10-26"
+    },
+    {
+      "file": "Burs_alpha.embl",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/PZ371508.1",
+      "status": 200,
+      "bytes": 2850,
+      "sha256": "ca5867b2246c7b0b7d41f84109cebcda37df4550064b47dbb5aa0cffb7398901",
+      "consulted_date": "2026-10-26"
+    },
+    {
+      "file": "md5sum.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/ensemblorganisms/GCA/975/739/785/1/ensembl/2026_02/geneset/md5sum.txt",
+      "status": 200,
+      "bytes": 680,
+      "sha256": "5f44840b52ace6290ebfaf747067521d103f6feb99be7c2c3e862ce83b0866ee",
+      "consulted_date": "2026-10-26"
+    },
+    {
+      "file": "MRFV_AF265566.embl",
+      "url": "https://www.ebi.ac.uk/ena/browser/api/embl/AF265566.1",
+      "status": 200,
+      "bytes": 14423,
+      "sha256": "7f7b0fa07bd8776fa2bec9196c75fa9f9ff28a293474a8b34118946bb26e543a",
+      "consulted_date": "2026-10-26"
+    }
+  ],
+  "EPILAB_source_sha256": "0a07cddd89028171f9f17e893ac31bf583ae2752008f7c28c2a24a9d5a660192",
+  "Andrada_article": "https://www.frontiersin.org/journals/insect-science/articles/10.3389/finsc.2026.1811933/full",
+  "Andrada_supplement_archive": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13279319/supplementaryFiles",
+  "supplement_pdf_sha256": "ccba0c00f12c51a9be06e4078a59a16c47aebf60254accc17f25ae5dbb32fc27",
+  "Burs_supplement_review": {
+    "vector_pdf_extraction_pypdf_and_pdfplumber_identical": true,
+    "length_nt": 697,
+    "whole_sequence_panel_visually_reviewed": "Figure S1 page 1, panel A, 2026-10-26",
+    "cause_of_deposit_vs_supplement_differences": "not established; not labelled as natural polymorphisms"
+  },
+  "annotation_policy": "Use the study deposit for Burs gene identity. The public genomic model has an inconsistent SRSF3 name but the same coding DNA and peptide; its label is not used to rename the target.",
+  "ensembl_release": "GCA_975739785.1 / 2026_02",
+  "coordinate_basis": "0-based half-open and 1-based inclusive, always relative to genes_9.fasta"
+}

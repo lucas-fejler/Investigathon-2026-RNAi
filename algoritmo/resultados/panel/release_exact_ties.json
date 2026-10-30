@@ -1,0 +1,335 @@
+[
+  {
+    "candidate_id": "DM_ATP5F1B",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2318:2518",
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2319:2519",
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2320:2520"
+    ],
+    "score_exact": "13/180"
+  },
+  {
+    "candidate_id": "DM_ATP5F1B",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2318:2518",
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2319:2519",
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2320:2520"
+    ],
+    "score_exact": "-77/180"
+  },
+  {
+    "candidate_id": "DM_ATP5F1B",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2318:2518",
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2319:2519",
+      "region:DM_ATP5F1B@290e16db6799d8e0b6109bd3816e31a00a600c9cd6548759c3d04e77948c9404:2320:2520"
+    ],
+    "score_exact": "-257/180"
+  },
+  {
+    "candidate_id": "DM_BURS_A",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:35:235",
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:36:236"
+    ],
+    "score_exact": "2/45"
+  },
+  {
+    "candidate_id": "DM_BURS_A",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:34:234"
+    ],
+    "score_exact": "7/180"
+  },
+  {
+    "candidate_id": "DM_BURS_A",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:35:235",
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:36:236"
+    ],
+    "score_exact": "-41/90"
+  },
+  {
+    "candidate_id": "DM_BURS_A",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:34:234"
+    ],
+    "score_exact": "-83/180"
+  },
+  {
+    "candidate_id": "DM_BURS_A",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:35:235",
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:36:236"
+    ],
+    "score_exact": "-131/90"
+  },
+  {
+    "candidate_id": "DM_BURS_A",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_BURS_A@fea521a53f7e14f2fc0e8c1084fb2f3885b647a660f5c20dec4cb2a3b19e340a:34:234"
+    ],
+    "score_exact": "-263/180"
+  },
+  {
+    "candidate_id": "DM_ETH",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:370:570",
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:371:571",
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:372:572"
+    ],
+    "score_exact": "7/90"
+  },
+  {
+    "candidate_id": "DM_ETH",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:370:570",
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:371:571",
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:372:572"
+    ],
+    "score_exact": "-19/45"
+  },
+  {
+    "candidate_id": "DM_ETH",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:370:570",
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:371:571",
+      "region:DM_ETH@02f66bf65dc9ef66fc1ec32001a1a31b472a443ccc74995565c34ebf62b65365:372:572"
+    ],
+    "score_exact": "-64/45"
+  },
+  {
+    "candidate_id": "DM_RPN6",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1340:1540",
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1341:1541"
+    ],
+    "score_exact": "13/180"
+  },
+  {
+    "candidate_id": "DM_RPN6",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1083:1283"
+    ],
+    "score_exact": "1/15"
+  },
+  {
+    "candidate_id": "DM_RPN6",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1340:1540",
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1341:1541"
+    ],
+    "score_exact": "-77/180"
+  },
+  {
+    "candidate_id": "DM_RPN6",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1083:1283"
+    ],
+    "score_exact": "-13/30"
+  },
+  {
+    "candidate_id": "DM_RPN6",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1340:1540",
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1341:1541"
+    ],
+    "score_exact": "-257/180"
+  },
+  {
+    "candidate_id": "DM_RPN6",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_RPN6@163fc21521aeeb85db7c7ff626a73864c43eb13a8b41710d52f4252ce04ed584:1083:1283"
+    ],
+    "score_exact": "-43/30"
+  },
+  {
+    "candidate_id": "DM_VATP_B",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1299:1499",
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1300:1500",
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1301:1501"
+    ],
+    "score_exact": "1/15"
+  },
+  {
+    "candidate_id": "DM_VATP_B",
+    "lambda": "1",
+    "region_ids": [
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1299:1499",
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1300:1500",
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1301:1501"
+    ],
+    "score_exact": "-13/30"
+  },
+  {
+    "candidate_id": "DM_VATP_B",
+    "lambda": "2",
+    "region_ids": [
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1299:1499",
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1300:1500",
+      "region:DM_VATP_B@6b6eeab1a15bfe2b6167cdea60f4327a19e20026d11130f8c6526d2c1ebfd9ae:1301:1501"
+    ],
+    "score_exact": "-43/30"
+  },
+  {
+    "candidate_id": "EPILAB_ATPaseD_Dm",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:261:461",
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:262:462",
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:263:463"
+    ],
+    "score_exact": "1/20"
+  },
+  {
+    "candidate_id": "EPILAB_ATPaseD_Dm",
+    "lambda": "1",
+    "region_ids": [
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:261:461",
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:262:462",
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:263:463"
+    ],
+    "score_exact": "-9/20"
+  },
+  {
+    "candidate_id": "EPILAB_ATPaseD_Dm",
+    "lambda": "2",
+    "region_ids": [
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:261:461",
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:262:462",
+      "region:EPILAB_ATPaseD_Dm@96f9bd32cee11751b8fb11797ac73146c02c68b73cf1bd4edfe6994def51576f:263:463"
+    ],
+    "score_exact": "-29/20"
+  },
+  {
+    "candidate_id": "EPILAB_BicC_Dm",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1882:2082",
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1883:2083",
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1884:2084"
+    ],
+    "score_exact": "1/18"
+  },
+  {
+    "candidate_id": "EPILAB_BicC_Dm",
+    "lambda": "1",
+    "region_ids": [
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1882:2082",
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1883:2083",
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1884:2084"
+    ],
+    "score_exact": "-4/9"
+  },
+  {
+    "candidate_id": "EPILAB_BicC_Dm",
+    "lambda": "2",
+    "region_ids": [
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1882:2082",
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1883:2083",
+      "region:EPILAB_BicC_Dm@03262222f5681f7e60377e2eb0c9374134901e874d52c1f071693dce16e45a02:1884:2084"
+    ],
+    "score_exact": "-13/9"
+  },
+  {
+    "candidate_id": "EPILAB_CP_MRFV",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:191:391",
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:192:392",
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:193:393"
+    ],
+    "score_exact": "1/36"
+  },
+  {
+    "candidate_id": "EPILAB_CP_MRFV",
+    "lambda": "1",
+    "region_ids": [
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:191:391",
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:192:392",
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:193:393"
+    ],
+    "score_exact": "-17/36"
+  },
+  {
+    "candidate_id": "EPILAB_CP_MRFV",
+    "lambda": "2",
+    "region_ids": [
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:191:391",
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:192:392",
+      "region:EPILAB_CP_MRFV@cf8ef8917057d16eff531f633942ad26a5b15e8f983c38c88c641c6c2bc82e5d:193:393"
+    ],
+    "score_exact": "-53/36"
+  },
+  {
+    "candidate_id": "EPILAB_MP_MRFV",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:625:825"
+    ],
+    "score_exact": "11/180"
+  },
+  {
+    "candidate_id": "EPILAB_MP_MRFV",
+    "lambda": "0.5",
+    "region_ids": [
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:619:819",
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:620:820"
+    ],
+    "score_exact": "1/18"
+  },
+  {
+    "candidate_id": "EPILAB_MP_MRFV",
+    "lambda": "1",
+    "region_ids": [
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:625:825"
+    ],
+    "score_exact": "-79/180"
+  },
+  {
+    "candidate_id": "EPILAB_MP_MRFV",
+    "lambda": "1",
+    "region_ids": [
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:619:819",
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:620:820"
+    ],
+    "score_exact": "-4/9"
+  },
+  {
+    "candidate_id": "EPILAB_MP_MRFV",
+    "lambda": "2",
+    "region_ids": [
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:625:825"
+    ],
+    "score_exact": "-259/180"
+  },
+  {
+    "candidate_id": "EPILAB_MP_MRFV",
+    "lambda": "2",
+    "region_ids": [
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:619:819",
+      "region:EPILAB_MP_MRFV@7fa3d3db50e945ce4118a27967b40bc726906e87a4e88ba5fdd1a0bfe1760c51:620:820"
+    ],
+    "score_exact": "-13/9"
+  }
+]

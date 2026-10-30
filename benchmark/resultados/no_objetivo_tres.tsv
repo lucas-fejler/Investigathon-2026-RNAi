@@ -1,0 +1,19 @@
+especie	gen	sifi	dsrnaengineer	siren	cociente_siren_bowtie
+zmays	DM_ATP5F1B	3	1	20928	6976 x
+zmays	DM_BURS_A		0	1532	inf (bowtie = 0)
+zmays	DM_ETH		0	1946	inf (bowtie = 0)
+zmays	DM_RPN6	50	30	16944	339 x
+zmays	DM_VATP_B	8	3	12114	1514 x
+zmays	EPILAB_ATPaseD_Dm		0	1338	inf (bowtie = 0)
+zmays	EPILAB_BicC_Dm		0	20556	inf (bowtie = 0)
+zmays	EPILAB_CP_MRFV		0	3466	inf (bowtie = 0)
+zmays	EPILAB_MP_MRFV		0	14282	inf (bowtie = 0)
+amellifera	DM_ATP5F1B		0	7691	inf (bowtie = 0)
+amellifera	DM_BURS_A		0	681	inf (bowtie = 0)
+amellifera	DM_ETH		0	1680	inf (bowtie = 0)
+amellifera	DM_RPN6	158	32	9539	60 x
+amellifera	DM_VATP_B		0	4655	inf (bowtie = 0)
+amellifera	EPILAB_ATPaseD_Dm		0	1003	inf (bowtie = 0)
+amellifera	EPILAB_BicC_Dm		0	7600	inf (bowtie = 0)
+amellifera	EPILAB_CP_MRFV		0	1322	inf (bowtie = 0)
+amellifera	EPILAB_MP_MRFV		0	4477	inf (bowtie = 0)

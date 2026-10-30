@@ -1,0 +1,10 @@
+gen	n_ventanas	rho_sifi_dsrna	rho_sifi_siren	rho_dsrna_siren	veredicto	mejor_sifi	mejor_siren	mejor_dsrna	jaccard_sifi_dsrna	jaccard_sifi_siren	jaccard_dsrna_siren
+DM_ATP5F1B	629	0.473	0.297	-0.233	bowtie mas parecido entre si	2449-2648	1005-1204	873-1072	0.00	0.18	0.43
+DM_BURS_A	68	NA	-0.557	NA	sin varianza suficiente	65-264	249-448	33-232	0.33	0.00	0.00
+DM_ETH	104	NA	NA	NA	sin varianza suficiente	217-416	37-236	217-416	0.54	0.00	0.00
+DM_RPN6	579	0.300	0.534	0.239	NO se cumple	2209-2408	109-308	2145-2344	0.06	0.13	0.00
+DM_VATP_B	369	-0.304	0.062	-0.438	NO se cumple	1137-1336	241-440	1473-1672	0.50	0.00	0.00
+EPILAB_ATPaseD_Dm	73	NA	NA	NA	sin varianza suficiente	125-324	289-488	empate total	sin datos	0.00	sin datos
+EPILAB_BicC_Dm	581	0.053	0.042	0.110	NO se cumple	2321-2520	1-200	1817-2016	0.00	0.00	0.00
+EPILAB_CP_MRFV	83	NA	NA	NA	sin varianza suficiente	121-320	141-340	sin datos	sin datos	0.07	sin datos
+EPILAB_MP_MRFV	266	NA	NA	NA	sin varianza suficiente	85-284	645-844	sin datos	sin datos	0.00	sin datos

@@ -1,0 +1,61 @@
+Third-party material: dsRIP terminal duplex-energy table
+========================================================
+
+Files in this directory derived from third-party material:
+
+  dsrip_lookup.db             verbatim copy of lookup.db from the deposit below
+  dsrip_terminal_energies.tsv deterministic text export of the same 256 values
+
+Source
+------
+
+  Cedden D. dsRIP web platform v1.0. figshare, 2025.
+  DOI: 10.6084/m9.figshare.28156787 (resolved version v3, posted 2025-03-16)
+
+  Described in: Cedden D, Guney G, Rostas M, Bucher G. Optimizing dsRNA
+  sequences for RNAi in pest control and research with the dsRIP web platform.
+  BMC Biology, 2025. DOI: 10.1186/s12915-025-02219-6
+
+License
+-------
+
+The figshare deposit declares the MIT License (item metadata: license.name =
+"MIT", license.url = "https://opensource.org/licenses/MIT"). The MIT terms as
+declared by that deposit are reproduced below. The copyright holder is the
+deposit's named author; no copyright year is asserted here beyond the deposit's
+2025 publication date, because the deposit itself states none.
+
+  MIT License
+
+  Copyright (c) 2025 Doga Cedden
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+Underlying thermodynamic parameters
+-----------------------------------
+
+The 256 values were generated from the nearest-neighbour helix model of:
+
+  Zuber J, Schroeder SJ, Sun H, Turner DH, Mathews DH. Nearest neighbor rules
+  for RNA helix folding thermodynamics: improved end effects. Nucleic Acids
+  Research, 2022;50(9):5251-5262. DOI: 10.1093/nar/gkac261
+
+That derivation was verified independently for this project; see
+provenance.json. This notice records the scientific provenance of the values and
+does not alter the license above, which governs the files as distributed.

@@ -1,0 +1,46 @@
+level	population_id	dataset_id	organism	reference_records	unique_positions	unique_queries	required_pairs	attempted_pairs	evaluated_pairs	unavailable_pairs	positive_pairs	negative_reported_pairs	greedy_traces_exhausted	unattempted_pairs	not_required_for_union_P_pairs	still_required_untested_pairs	positive_complete_positions	negative_complete_positions	partial_unresolved_positions	untested_positions	failed_positions	all_required_pairs_evaluated	every_position_boolean_decided_for_species
+gene	DM_ATP5F1B	dmaidis	Dalbulus maidis	49881	182	364	18156684	197	197	0	127	70	70	18156487	18156487	0	127	0	55	0	0	False	False
+gene	DM_ATP5F1B	human	Homo sapiens	186185	182	364	67771340	39	39	0	39	0	0	67771301	67771301	0	39	0	0	143	0	False	False
+gene	DM_ATP5F1B	maize	Zea mays	76549	182	364	27863836	7	7	0	7	0	0	27863829	27863829	0	7	0	0	175	0	False	False
+gene	DM_ATP5F1B	bee	Apis mellifera	27887	182	364	10150868	9	9	0	9	0	0	10150859	10150859	0	9	0	0	173	0	False	False
+gene	DM_ATP5F1B	mrfv	Maize rayado fino virus	1	182	364	364	0	0	0	0	0	0	364	364	0	0	0	0	182	0	False	False
+gene	DM_BURS_A	dmaidis	Dalbulus maidis	49881	182	364	18156684	202	202	0	20	182	182	18156482	18156482	0	20	0	162	0	0	False	False
+gene	DM_BURS_A	human	Homo sapiens	186185	182	364	67771340	85	85	0	85	0	1	67771255	67771255	0	85	0	0	97	0	False	False
+gene	DM_BURS_A	maize	Zea mays	76549	182	364	27863836	60	60	0	60	0	1	27863776	27863776	0	60	0	0	122	0	False	False
+gene	DM_BURS_A	bee	Apis mellifera	27887	182	364	10150868	17	17	0	17	0	0	10150851	10150851	0	17	0	0	165	0	False	False
+gene	DM_BURS_A	mrfv	Maize rayado fino virus	1	182	364	364	0	0	0	0	0	0	364	364	0	0	0	0	182	0	False	False
+gene	DM_ETH	dmaidis	Dalbulus maidis	49881	182	364	18156684	215	215	0	33	182	183	18156469	18156469	0	33	0	149	0	0	False	False
+gene	DM_ETH	human	Homo sapiens	186185	182	364	67771340	99	99	0	99	0	2	67771241	67771241	0	99	0	0	83	0	False	False
+gene	DM_ETH	maize	Zea mays	76549	182	364	27863836	43	43	0	42	1	1	27863793	27863793	0	42	0	1	139	0	False	False
+gene	DM_ETH	bee	Apis mellifera	27887	182	364	10150868	8	8	0	8	0	0	10150860	10150860	0	8	0	0	174	0	False	False
+gene	DM_ETH	mrfv	Maize rayado fino virus	1	182	364	364	0	0	0	0	0	0	364	364	0	0	0	0	182	0	False	False
+gene	DM_RPN6	dmaidis	Dalbulus maidis	49881	361	722	36014082	424	424	0	62	362	363	36013658	36013658	0	62	0	299	0	0	False	False
+gene	DM_RPN6	human	Homo sapiens	186185	361	722	134425570	186	186	0	183	3	3	134425384	134425384	0	183	0	0	178	0	False	False
+gene	DM_RPN6	maize	Zea mays	76549	361	722	55268378	101	101	0	101	0	1	55268277	55268277	0	101	0	0	260	0	False	False
+gene	DM_RPN6	bee	Apis mellifera	27887	361	722	20134414	15	15	0	15	0	0	20134399	20134399	0	15	0	0	346	0	False	False
+gene	DM_RPN6	mrfv	Maize rayado fino virus	1	361	722	722	0	0	0	0	0	0	722	722	0	0	0	0	361	0	False	False
+gene	DM_VATP_B	dmaidis	Dalbulus maidis	49881	182	364	18156684	196	196	0	14	182	182	18156488	18156488	0	14	0	168	0	0	False	False
+gene	DM_VATP_B	human	Homo sapiens	186185	182	364	67771340	97	97	0	97	0	0	67771243	67771243	0	97	0	0	85	0	False	False
+gene	DM_VATP_B	maize	Zea mays	76549	182	364	27863836	62	62	0	62	0	0	27863774	27863774	0	62	0	0	120	0	False	False
+gene	DM_VATP_B	bee	Apis mellifera	27887	182	364	10150868	9	9	0	9	0	0	10150859	10150859	0	9	0	0	173	0	False	False
+gene	DM_VATP_B	mrfv	Maize rayado fino virus	1	182	364	364	0	0	0	0	0	0	364	364	0	0	0	0	182	0	False	False
+gene	EPILAB_ATPaseD_Dm	dmaidis	Dalbulus maidis	49881	182	364	18156684	204	204	0	23	181	181	18156480	18156480	0	23	0	158	1	0	False	False
+gene	EPILAB_ATPaseD_Dm	human	Homo sapiens	186185	182	364	67771340	90	90	0	90	0	3	67771250	67771250	0	90	0	0	92	0	False	False
+gene	EPILAB_ATPaseD_Dm	maize	Zea mays	76549	182	364	27863836	46	46	0	46	0	2	27863790	27863790	0	46	0	0	136	0	False	False
+gene	EPILAB_ATPaseD_Dm	bee	Apis mellifera	27887	182	364	10150868	23	23	0	23	0	1	10150845	10150845	0	23	0	0	159	0	False	False
+gene	EPILAB_ATPaseD_Dm	mrfv	Maize rayado fino virus	1	182	364	364	0	0	0	0	0	0	364	364	0	0	0	0	182	0	False	False
+gene	EPILAB_BicC_Dm	dmaidis	Dalbulus maidis	49881	182	364	18156684	210	210	0	28	182	182	18156474	18156474	0	28	0	154	0	0	False	False
+gene	EPILAB_BicC_Dm	human	Homo sapiens	186185	182	364	67771340	112	112	0	112	0	0	67771228	67771228	0	112	0	0	70	0	False	False
+gene	EPILAB_BicC_Dm	maize	Zea mays	76549	182	364	27863836	40	40	0	40	0	0	27863796	27863796	0	40	0	0	142	0	False	False
+gene	EPILAB_BicC_Dm	bee	Apis mellifera	27887	182	364	10150868	2	2	0	2	0	0	10150866	10150866	0	2	0	0	180	0	False	False
+gene	EPILAB_BicC_Dm	mrfv	Maize rayado fino virus	1	182	364	364	0	0	0	0	0	0	364	364	0	0	0	0	182	0	False	False
+gene	EPILAB_CP_MRFV	dmaidis	Dalbulus maidis	49881	182	364	18156684	11	11	0	11	0	0	18156673	18156673	0	11	0	0	171	0	False	False
+gene	EPILAB_CP_MRFV	human	Homo sapiens	186185	182	364	67771340	70	70	0	70	0	0	67771270	67771270	0	70	0	0	112	0	False	False
+gene	EPILAB_CP_MRFV	maize	Zea mays	76549	182	364	27863836	44	44	0	44	0	0	27863792	27863792	0	44	0	0	138	0	False	False
+gene	EPILAB_CP_MRFV	bee	Apis mellifera	27887	182	364	10150868	4	4	0	4	0	0	10150864	10150864	0	4	0	0	178	0	False	False
+gene	EPILAB_CP_MRFV	mrfv	Maize rayado fino virus	1	182	364	364	53	53	0	53	0	6	311	311	0	53	0	0	129	0	False	False
+gene	EPILAB_MP_MRFV	dmaidis	Dalbulus maidis	49881	186	372	18555732	12	12	0	11	1	1	18555720	18555720	0	11	0	1	174	0	False	False
+gene	EPILAB_MP_MRFV	human	Homo sapiens	186185	186	372	69260820	101	101	0	101	0	0	69260719	69260719	0	101	0	0	85	0	False	False
+gene	EPILAB_MP_MRFV	maize	Zea mays	76549	186	372	28476228	65	65	0	64	1	4	28476163	28476163	0	64	0	1	121	0	False	False
+gene	EPILAB_MP_MRFV	bee	Apis mellifera	27887	186	372	10373964	12	12	0	10	2	3	10373952	10373952	0	10	0	1	175	0	False	False
+gene	EPILAB_MP_MRFV	mrfv	Maize rayado fino virus	1	186	372	372	0	0	0	0	0	0	372	372	0	0	0	0	186	0	False	False

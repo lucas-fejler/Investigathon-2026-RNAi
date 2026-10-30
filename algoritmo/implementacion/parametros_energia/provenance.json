@@ -1,0 +1,90 @@
+{
+  "artifact": "dsRIP terminal duplex-energy table for thermodynamic asymmetry",
+  "vendored_on": "2026-10-28",
+  "method_id": "dsrip-thermoasym-v1",
+  "specification": "../../METODOLOGIA.md",
+  "chain": {
+    "1_publication": {
+      "citation": "Cedden D, Guney G, Rostas M, Bucher G. Optimizing dsRNA sequences for RNAi in pest control and research with the dsRIP web platform. BMC Biology, 2025.",
+      "doi": "10.1186/s12915-025-02219-6",
+      "open_access_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12039203/",
+      "platform": "https://dsrip.uni-goettingen.de",
+      "supporting_section": "Methods, 'dsRNA designer: efficacy and off-target prediction'"
+    },
+    "2_implementation": {
+      "citation": "Cedden D. dsRIP web platform v1.0. figshare, 2025.",
+      "doi": "10.6084/m9.figshare.28156787",
+      "resolved_version": "v3",
+      "published_date": "2025-03-16T22:34:55Z",
+      "license": "MIT",
+      "license_source": "figshare item metadata (license.name = MIT, license.url = https://opensource.org/licenses/MIT)",
+      "supporting_function": "thermoAsym() in dsRNA_efficiency.py; key lookup via get_value(); duplex construction via generate_siRNA() and kmer_pairs_np()",
+      "files_inspected": [
+        {
+          "name": "dsRNA_efficiency.py",
+          "bytes": 49122,
+          "md5": "3c6fe81ae3503b44238dd8730c69b883"
+        },
+        {
+          "name": "lookup.db",
+          "bytes": 20480,
+          "md5": "e7e42098f352e74566850036b61f6433"
+        },
+        {
+          "name": "siRNA_parameters.txt",
+          "bytes": 301,
+          "md5": "cb8b925772e7791d98ade5c7492c6671"
+        }
+      ]
+    },
+    "3_energy_data": {
+      "original_file": "dsrip_lookup.db",
+      "original_description": "SQLite table lookup(key TEXT PRIMARY KEY, value REAL); 256 rows covering every 4-mer over {A,C,G,U}",
+      "original_md5": "e7e42098f352e74566850036b61f6433",
+      "original_md5_matches_figshare_manifest": true,
+      "original_sha256": "87532c1cbeaecf081c31a0688aec8c1952d327f0b480ec3610aed86f6b482dc8",
+      "export_file": "dsrip_terminal_energies.tsv",
+      "export_description": "Deterministic ASCII TSV export, sorted by key, values formatted to exactly two decimal places; this is the artifact the M6 calculation parses",
+      "export_sha256": "6c5d8466d69c2f678c7de83a82d86fa803f081ce898f1a8edbb68781f89ec9e5",
+      "units": "kcal/mol",
+      "model_state": "delta G at 37 C (dG37), 1 M NaCl optical-melting basis of the parameter source",
+      "verified_properties": [
+        "exactly 256 keys, covering all 4-mers over {A,C,G,U} with none missing",
+        "every value has exactly two decimal places",
+        "value range -5.92 to +2.00 kcal/mol, with 32 positive values",
+        "value(k) == value(reverse_complement(k)) for all 256 keys, with zero exceptions"
+      ]
+    },
+    "4_parameter_source": {
+      "citation": "Zuber J, Schroeder SJ, Sun H, Turner DH, Mathews DH. Nearest neighbor rules for RNA helix folding thermodynamics: improved end effects. Nucleic Acids Research, 2022;50(9):5251-5262.",
+      "doi": "10.1093/nar/gkac261",
+      "open_access_full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9122537/",
+      "cited_as_reference": 67,
+      "supporting_section": "Table 1A (initiation, AU end terms, symmetry correction)",
+      "independent_verification": {
+        "method": "Fitting the additive helix model of this source to all 256 vendored values",
+        "max_absolute_residual_kcal_per_mol": 0.0,
+        "recovered_constants_match_published": {
+          "au_end_on_au_penultimate": 0.22,
+          "au_end_on_cg_penultimate": 0.44,
+          "symmetry_self_complementary": 0.43
+        },
+        "initiation_held_at_published_value": 4.1,
+        "note": "Helix initiation is not separately identifiable from this table because every 4-mer contains exactly three stacks and one initiation; it cancels from every asymmetry score."
+      }
+    }
+  },
+  "attribution": {
+    "energy_table_author": "Doga Cedden",
+    "energy_table_source": "dsRIP web platform v1.0, figshare DOI 10.6084/m9.figshare.28156787 (v3)",
+    "declared_license": "MIT",
+    "license_text": "LICENSE.dsRIP",
+    "redistribution_basis": "The deposit declares the MIT license, which permits redistribution with attribution and the license notice. Both are provided in this directory."
+  },
+  "recorded_modeling_limitations": [
+    "The parameter source's +0.43 symmetry correction applies to self-complementary duplexes. dsRIP applies the table to 4 bp sub-regions of a 19 bp helix, where a 4-mer's self-complementarity has no physical meaning. This affects 16 of the 256 keys and can shift a score by +/-0.43 kcal/mol. Retained unmodified for source fidelity for fidelity to the published implementation.",
+    "The table is fixed at 37 C while dsRIP's separate folding features accept a user temperature (default 25 C in its code). The asymmetry component therefore carries a fixed 37 C assumption.",
+    "The underlying efficacy associations were calibrated in Tribolium castaneum. Transfer to Dalbulus maidis and to Maize rayado fino virus is an assumption of the project plan, not a finding.",
+    "The table covers only fully Watson-Crick 4-mers. This is sufficient because the modeled siRNA duplex core is perfectly complementary by construction, so no mismatch or GU wobble can arise."
+  ]
+}

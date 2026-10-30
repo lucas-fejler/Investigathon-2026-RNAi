@@ -1,0 +1,17 @@
+{
+  "a_complete": "All 180 original M6 positions are measured and the exact favorable count agrees with frozen A and M6.",
+  "failed": "An unresolved execution, recovery, identity or verification failure blocks the position even with another positive.",
+  "historical_attempt_failure": "Retained failed attempt, never a zero. An exact-task verified retry can resolve the required task; unrelated positives cannot do so.",
+  "negative_complete": "Both orientations completed all required records without qualifying unintended evidence, under the complete native greedy-report policy; not all possible RNA structures.",
+  "negative_reported_pair": "One complete native greedy-report trace has no qualifying unintended witness; other records/orientations may remain.",
+  "not_required_for_union_P_after_positive": "Unattempted work unnecessary for settled union P; species search coverage remains incomplete.",
+  "outside_panel": "Outside frozen admission; no combined panel rank.",
+  "p_complete": "All 180 union flags are independently decided and agree with retained P; species searches may remain incomplete.",
+  "positive_complete": "A verified unintended witness settles union P; unattempted species/records are not thereby assessed.",
+  "ranking_eligible": "Every frozen admission for this gene has complete A/P, verified exact M8 scores and verified within-panel ranks/ties.",
+  "selected_complete": "Frozen admission with complete A/P measurements; score verification and gene ranking eligibility are separate fields.",
+  "selected_incomplete": "Frozen admission with unavailable A and/or P; missing measurements and dependent scores are null.",
+  "species_partial_unresolved": "Some native pairs assessed in this species, without a witness or complete-policy negative.",
+  "species_untested": "No native pair assessed in this species/position.",
+  "unresolved": "Missing, partial, ambiguous or capped required work; P and dependent scores remain null."
+}
